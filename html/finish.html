@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Congrats!</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div id="end" class="flex-center flex-column">
+          <h1 id="totalMark">0</h1>
+          <form>
+            <input type="text" name="username" id="username" placeholder="username" />
+            <button type="submit" class="btn" id="btnSaveMark" onclick="saveMaxMark(event)" disabled>
+              Save
+            </button>
+            <div id="atemptAgainInfo" class="flex-center flex-column">
+              <h3>You want to try again?</h3>
+              <div class="wrap__links">
+                <a class="link" href="quize.html">Atempt again</a>
+                <a class="link" href="maxscores.html">See Our High Scores</a>
+                <a class="link" href="/">Home</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="../js/finish.js"></script>
+  </body>
+</html>
